@@ -1,0 +1,47 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  guests: MyString
+  individuals: MyString
+  collaborations: MyString
+  poster: MyString
+  eventdate: MyString
+  date: 
+  content-eng: MyString
+  content-kor: MyString
+  link: MyString
+  eventid: MyString
+  jpg1: MyString
+  jpg2: MyString
+  jpg3: MyString
+  jpg4: MyString
+  jpg5: MyString
+  jpg6: MyString
+  jpg7: MyString
+  jpg8: MyString
+  jpg9: MyString
+  jpg10: MyString
+
+two:
+  name: MyString
+  guests: MyString
+  individuals: MyString
+  collaborations: MyString
+  poster: MyString
+  eventdate: MyString
+  date: 
+  content-eng: MyString
+  content-kor: MyString
+  link: MyString
+  eventid: MyString
+  jpg1: MyString
+  jpg2: MyString
+  jpg3: MyString
+  jpg4: MyString
+  jpg5: MyString
+  jpg6: MyString
+  jpg7: MyString
+  jpg8: MyString
+  jpg9: MyString
+  jpg10: MyString

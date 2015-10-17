@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  forumid: MyString
+  content: MyString
+  date: 
+  jpg1: MyString
+  jpg2: MyString
+  jpg3: MyString
+  jpg4: MyString
+  jpg5: 
+  jpg7: MyString
+  jpg8: MyString
+  jpg9: MyString
+  jpg10: MyString
+
+two:
+  title: MyString
+  forumid: MyString
+  content: MyString
+  date: 
+  jpg1: MyString
+  jpg2: MyString
+  jpg3: MyString
+  jpg4: MyString
+  jpg5: 
+  jpg7: MyString
+  jpg8: MyString
+  jpg9: MyString
+  jpg10: MyString
