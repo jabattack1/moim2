@@ -4,7 +4,7 @@ class CreatePresses < ActiveRecord::Migration
       t.string :title
       t.string :pressdate
       t.string :poster
-      t.timestamptz :date
+      t.timestamps :date
       t.string :link
 
       t.timestamps null: false

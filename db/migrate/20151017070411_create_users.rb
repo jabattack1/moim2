@@ -12,7 +12,7 @@ class CreateUsers < ActiveRecord::Migration
       t.string :ethnicity
       t.string :company
       t.string :school
-      t.timestamptz :date
+      t.timestamps :date
 
       t.timestamps null: false
     end

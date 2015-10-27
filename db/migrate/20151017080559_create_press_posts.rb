@@ -4,9 +4,9 @@ class CreatePressPosts < ActiveRecord::Migration
       t.string :title
       t.string :writer
       t.string :pressdate
-      t.timestamptz :date
-      t.string :content-eng
-      t.string :content-kor
+      t.timestamps :date
+      t.string :content_eng
+      t.string :content_kor
       t.string :poster
       t.string :link
       t.string :pressid

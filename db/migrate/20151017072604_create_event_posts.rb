@@ -7,9 +7,9 @@ class CreateEventPosts < ActiveRecord::Migration
       t.string :collaborations
       t.string :poster
       t.string :eventdate
-      t.timestamptz :date
-      t.string :content-eng
-      t.string :content-kor
+      t.timestamps :date
+      t.string :content_eng
+      t.string :content_kor
       t.string :link
       t.string :eventid
       t.string :jpg1

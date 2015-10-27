@@ -5,12 +5,13 @@ class CreateForums < ActiveRecord::Migration
       t.string :topic
       t.string :content
       t.string :poster
-      t.timestamptz :date
+      t.timestamps :date
       t.string :jpg1
       t.string :jpg2
       t.string :jpg3
       t.string :jpg4
-      t.stringjpg6 :jpg5
+      t.string :jpg5
+      t.string :jpg6
       t.string :jpg7
       t.string :jpg8
       t.string :jpg9

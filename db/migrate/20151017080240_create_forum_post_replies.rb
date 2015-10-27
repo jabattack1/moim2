@@ -4,7 +4,7 @@ class CreateForumPostReplies < ActiveRecord::Migration
       t.string :title
       t.string :forum_postid
       t.string :content
-      t.timestamptz :date
+      t.timestamps :date
 
       t.timestamps null: false
     end

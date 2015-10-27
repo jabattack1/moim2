@@ -6,7 +6,7 @@ class CreateGalleries < ActiveRecord::Migration
       t.string :eventdate
       t.string :event
       t.string :link
-      t.timestamptz :date
+      t.timestamps :date
 
       t.timestamps null: false
     end

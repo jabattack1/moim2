@@ -4,7 +4,7 @@ class CreateBlogs < ActiveRecord::Migration
       t.string :title
       t.string :blogdate
       t.string :poster
-      t.timestamptz :date
+      t.timestamps :date
       t.string :link
 
       t.timestamps null: false

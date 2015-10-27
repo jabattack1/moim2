@@ -5,9 +5,9 @@ class CreateBlogPosts < ActiveRecord::Migration
       t.string :place
       t.string :poster
       t.string :blogdate
-      t.timestamptz :date
-      t.string :content-eng
-      t.string :content-kor
+      t.timestamps :date
+      t.string :content_eng
+      t.string :content_kor
       t.string :link
       t.string :blogid
       t.string :jpg1
